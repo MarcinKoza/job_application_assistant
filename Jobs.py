@@ -6,7 +6,7 @@ from datetime import date
 
 class Jobs:
 
-    my_jobs_tags=[]
+    my_jobs_tags = []
     job_list = []
 
     @classmethod
@@ -15,7 +15,7 @@ class Jobs:
 
     @classmethod
     def get_all_tags(self):
-        for idx,tag in enumerate(self.my_jobs_tags):
+        for idx, tag in enumerate(self.my_jobs_tags):
             print(f"{idx+1}. {tag}")
         input("press enter to continue")
 

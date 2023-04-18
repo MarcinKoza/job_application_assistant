@@ -1,14 +1,14 @@
 import os
 
 class Menu:
-    menu_list=["Press for adding searched jobs tags",
-               "Press for listing search tags",
-               "Press to update offerts internal memory",
-               "Press to export offerts to exelfile",
-               "Press to add mailing and specify hour of automatic every day alerts",
-               "backup data to txt",
-               "load data from txt",
-               "exit"]
+    menu_list = ["Press for adding searched jobs tags",
+                 "Press for listing search tags",
+                 "Press to update offers internal memory",
+                 "Press to export offers to exel file",
+                 "Press to add mailing and specify hour of automatic every day alerts",
+                 "backup data to txt",
+                 "load data from txt",
+                 "exit"]
 
     @classmethod
     def show_menu(self):
