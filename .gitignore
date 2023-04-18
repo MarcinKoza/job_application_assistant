@@ -1,0 +1,6 @@
+venv/
+/Template.xlsx
+/test.py
+/job_db.xlsx
+.idea/
+__pycache__/
