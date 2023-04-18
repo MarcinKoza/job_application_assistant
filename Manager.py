@@ -1,5 +1,6 @@
 import Menu
 import Jobs
+import sys
 
 class Manager:
 
@@ -24,3 +25,5 @@ class Manager:
             pass
         elif choice == 7:
             pass
+        elif choice == 8:
+            sys.exit("Exiting the program ...")
