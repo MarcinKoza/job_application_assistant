@@ -54,13 +54,13 @@ class Jobs:
         except:
             wb = Workbook()
             ws = wb.active
-            ws.title = "Pracujpl"
+            ws.title = "Pracuj.pl"
             ws['B1'] = 'Job title'
             ws['C1'] = 'Company'
-            ws['D1'] = 'Found for tag'
+            ws['D1'] = 'Search tag'
             ws['E1'] = 'Finding date'
             ws['F1'] = 'Finding site'
-            ws['G1'] = 'Offer_url'
+            ws['G1'] = 'Offer url'
             ws['H1'] = 'Applicated'
             ws['I1'] = 'Not qualified to apply'
 
