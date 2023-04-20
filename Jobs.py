@@ -72,3 +72,8 @@ class Jobs:
             print("created new exel_file")
         wb.save('job_db.xlsx')
 
+    @classmethod
+    def backup_to_txt(self,backup_name):
+        with open("backups/"+backup_name+".txt", "w") as file:
+            file.write(str(self.my_jobs_tags))
+

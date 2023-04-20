@@ -4,3 +4,4 @@ venv/
 /job_db.xlsx
 .idea/
 __pycache__/
+backups/

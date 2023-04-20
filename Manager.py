@@ -28,7 +28,8 @@ class Manager:
             pass
 
         elif choice == 6:
-            pass
+            save_name = input("enter the name of you save file ")
+            Jobs.Jobs.backup_to_txt(save_name)
 
         elif choice == 7:
             pass
