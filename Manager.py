@@ -28,11 +28,12 @@ class Manager:
             pass
 
         elif choice == 6:
-            save_name = input("enter the name of you save file ")
+            save_name = input("enter the name of your save file ")
             Jobs.Jobs.backup_to_txt(save_name)
 
         elif choice == 7:
-            pass
+            save_name = input("enter the name of your save file ")
+            Jobs.Jobs.backup_from_txt(save_name)
 
         elif choice == 8:
             sys.exit("Exiting the program ...")

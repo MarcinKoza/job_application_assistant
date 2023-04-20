@@ -77,3 +77,9 @@ class Jobs:
         with open("backups/"+backup_name+".txt", "w") as file:
             file.write(str(self.my_jobs_tags))
 
+    @classmethod
+    def backup_from_txt(self,backup_name):
+        with open("backups/" + backup_name + ".txt", "r") as file:
+            file = file.read()
+            self.my_jobs_tags = file.strip('][').replace('\'', "").split(', ')
+
